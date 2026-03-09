@@ -2,62 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Showab Ahammad Raj | Bangladeshi Software Engineer</title>
-<meta name="description" content="Showab Ahammad is a Bangladeshi Software Engineer specializing in Java, React, and Web Development.">
-<meta name="keywords" content="showab ahammad portfolio, showab ahammad raj portfolio, bangladeshi engineer showab, Bangladeshi Engineer, Software Developer Bangladesh, Engr Showab Ahammad, Gazipur web developer, Gazipur software engineer, Gazipur city corporation engineer, MIST Joydevpur, MIST CSE student">
-<meta name="author" content="Showab Ahammad">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title>Showab Ahammad | Software Engineer Portfolio</title>
+    
+    <meta name="description" content="Showab Ahammad is a Bangladeshi Software Engineer specializing in Java, React, and Web Development.">
+    <meta name="keywords" content="showab ahammad portfolio, Bangladeshi Engineer, Software Developer, Java Developer, Gazipur Software Engineer">
+    <meta name="author" content="Showab Ahammad">
     <meta name="google-site-verification" content="9Ur0uRXTXkodEJbOd_gbdCSGjkjSXyPxJEXf5-JU9EI" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Showab Ahammad</h1>
-        <p>Computer Science Student | Future Software Engineer</p>
+    <nav class="navbar">
+        <div class="logo">SA<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Showab Ahammad</h1>
+            <p class="tagline">Computer Science Student | Future Software Engineer</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="https://github.com/showab" class="btn secondary" target="_blank">GitHub Profile</a>
+            </div>
+        </div>
     </header>
 
-    <section class="about">
-        <h2>About Me</h2>
-        <p>
-            I am a passionate Computer Science student focused on Java, Web Development,
-            and Software Engineering. I aim to build professional and impactful software solutions.
-        </p>
-    </section>
+    <main class="container">
+        
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate Computer Science student focused on **Java**, **Web Development**, and **Software Engineering**. 
+                I enjoy building functional, scalable solutions and exploring the intersection of clean code and creative **2D Animation**.
+            </p>
+        </section>
 
-    <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Java</li>
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-            <li>MySQL</li>
-            <li>Git & GitHub</li>
-            <li>2D Animation</li>
-        </ul>
-    </section>
+        <section id="skills" class="skills">
+            <h2>Technical Stack</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Web & Tools</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>React</li>
+                        <li>Git & GitHub</li>
+                        <li>2D Animation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-    <section class="projects">
-        <h2>Projects</h2>
-        <div class="project-card">
-            <h3>School Management System</h3>
-            <p>JavaFX based system with Admin, Teacher & Student panel.</p>
-        </div>
+        <section id="projects" class="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>School Management System</h3>
+                        <p>A comprehensive JavaFX application with specialized dashboards for Admins, Teachers, and Students.</p>
+                        <span class="tech-tag">Java</span> <span class="tech-tag">JavaFX</span>
+                    </div>
+                </div>
 
-        <div class="project-card">
-            <h3>Personal Portfolio Website</h3>
-            <p>Responsive website deployed using Cloudflare Pages.</p>
-        </div>
-    </section>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Student Dashboard</h3>
+                        <p>A functional web-based system using PHP and SQL for real-time profile management and academic tracking.</p>
+                        <span class="tech-tag">PHP</span> <span class="tech-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section class="contact">
-        <h2>Contact</h2>
-        <p>Email: showabbd@gmail.com</p>
-        <p>GitHub: github.com/showab</p>
-    </section>
+        <section id="contact" class="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-card">
+                <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+                <a href="mailto:showabbd@gmail.com" class="email-link">showabbd@gmail.com</a>
+            </div>
+        </section>
+
+    </main>
 
     <footer>
-        <p>© 2026 Showab Ahammad. All Rights Reserved.</p>
+        <p>&copy; 2026 Showab Ahammad. Designed for performance and clarity.</p>
     </footer>
 
 </body>
