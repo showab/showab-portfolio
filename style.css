@@ -319,3 +319,24 @@ footer {
     section { padding: 60px 0; }
     .skill-card, .project-card { padding: 20px; }
 }
+
+.timeline-item {
+    background: var(--bg-section);
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid var(--accent);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline-item h3 {
+    color: var(--text-main);
+    margin-bottom: 5px;
+}
+
+.timeline-item .date {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: var(--accent);
+}
