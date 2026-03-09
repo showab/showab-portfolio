@@ -6,27 +6,28 @@
     <title>Showab Ahammad | Software Engineer Portfolio</title>
     
     <meta name="description" content="Showab Ahammad is a Bangladeshi Software Engineer specializing in Java, React, and Web Development.">
-    <meta name="keywords" content="showab ahammad portfolio, Bangladeshi Engineer, Software Developer, Java Developer, Gazipur Software Engineer">
     <meta name="author" content="Showab Ahammad">
     <meta name="google-site-verification" content="9Ur0uRXTXkodEJbOd_gbdCSGjkjSXyPxJEXf5-JU9EI" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <nav class="navbar">
-        <div class="logo">SA<span>.</span></div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="container nav-container">
+            <div class="logo">SA<span class="accent">.</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
     <header class="hero">
-        <div class="hero-content">
+        <div class="container hero-content">
             <h1>Showab Ahammad</h1>
             <p class="tagline">Computer Science Student | Future Software Engineer</p>
             <div class="cta-buttons">
@@ -39,45 +40,68 @@
     <main class="container">
         
         <section id="about" class="about">
-            <h2>About Me</h2>
-            <p>
-                I am a passionate Computer Science student focused on **Java**, **Web Development**, and **Software Engineering**. 
-                I enjoy building functional, scalable solutions and exploring the intersection of clean code and creative **2D Animation**.
-            </p>
+            <h2 class="section-title">About Me</h2>
+            <div class="about-card">
+                <p>
+                    I am a passionate Computer Science student focused on <span class="highlight">Java</span>, <span class="highlight">Web Development</span>, and <span class="highlight">Software Engineering</span>. 
+                    I enjoy building functional, scalable solutions and exploring the intersection of clean code and creative **2D Animation**.
+                </p>
+            </div>
         </section>
 
         <section id="skills" class="skills">
-            <h2>Technical Stack</h2>
-            <div class="skills-container">
-                <div class="skill-category">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
                     <h3>Languages</h3>
-                    <ul>
+                    <ul class="skill-tags">
                         <li>Java</li>
                         <li>JavaScript</li>
                         <li>PHP</li>
                         <li>SQL</li>
                     </ul>
                 </div>
-                <div class="skill-category">
-                    <h3>Web & Tools</h3>
-                    <ul>
-                        <li>HTML5 & CSS3</li>
-                        <li>React</li>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Web Stack</h3>
+                    <ul class="skill-tags">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>React.js</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Tools & More</h3>
+                    <ul class="skill-tags">
                         <li>Git & GitHub</li>
+                        <li>MySQL</li>
+                        <li>Cloudflare Pages</li>
                         <li>2D Animation</li>
                     </ul>
                 </div>
+
             </div>
         </section>
 
         <section id="projects" class="projects">
-            <h2>Featured Projects</h2>
+            <h2 class="section-title">Featured Projects</h2>
             <div class="project-grid">
+                
                 <div class="project-card">
                     <div class="project-info">
                         <h3>School Management System</h3>
                         <p>A comprehensive JavaFX application with specialized dashboards for Admins, Teachers, and Students.</p>
-                        <span class="tech-tag">Java</span> <span class="tech-tag">JavaFX</span>
+                        <div class="project-tags">
+                            <span class="tech-tag">Java</span> 
+                            <span class="tech-tag">JavaFX</span>
+                            <span class="tech-tag">Database</span>
+                        </div>
                     </div>
                 </div>
 
@@ -85,16 +109,21 @@
                     <div class="project-info">
                         <h3>Student Dashboard</h3>
                         <p>A functional web-based system using PHP and SQL for real-time profile management and academic tracking.</p>
-                        <span class="tech-tag">PHP</span> <span class="tech-tag">MySQL</span>
+                        <div class="project-tags">
+                            <span class="tech-tag">PHP</span> 
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Web App</span>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </section>
 
         <section id="contact" class="contact">
-            <h2>Get In Touch</h2>
+            <h2 class="section-title">Get In Touch</h2>
             <div class="contact-card">
-                <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+                <p>Feel free to reach out for collaborations, job opportunities, or just to connect!</p>
                 <a href="mailto:showabbd@gmail.com" class="email-link">showabbd@gmail.com</a>
             </div>
         </section>
@@ -102,7 +131,9 @@
     </main>
 
     <footer>
-        <p>&copy; 2026 Showab Ahammad. Designed for performance and clarity.</p>
+        <div class="container">
+            <p>&copy; 2026 Showab Ahammad. Professional Engineering Portfolio.</p>
+        </div>
     </footer>
 
 </body>
